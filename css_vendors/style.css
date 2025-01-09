@@ -1,0 +1,15 @@
+
+.mybox {
+    width: 300px;
+    height: 250px;
+    background-color: blue;
+    border-radius: 25px;
+    transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.mybox:hover {
+    background-color: pink;
+    width: 500px;
+    height: 250px;
+}
