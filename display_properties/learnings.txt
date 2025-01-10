@@ -1,0 +1,22 @@
+DISPLAY: INLINE
+Top and bottom margins don't work for inline elements,
+Also top and bottom padding dont push other element away
+
+DISPLAY: INLINE-BLOCK
+For inline elements you can set height and width even if you set it doesnt effect whatever, if you want add height and width you have to set it as INLINE-BLOCK
+
+DISPLAY:BLOCK
+For BLOCK elements however you can set height and width if you dont set by default they takeup entire width available and height of its content size
+
+Also if you set height and width for a block level elements the remaining space cant be used for any other element so if you want to set something as block and set height and width and use remaining space then set it as  INLINE-BLOCK
+
+DISPLAY: NONE
+It makes whatever elements as they never existed
+VISIBILITY:HIDDEN
+It makes whatever elements as invicible but the space they took if they render on webpage willbe present as it is
+
+DISPLAY: INHERIT
+It will inherit the dispaly property of its parent if the parent is BLOCK level then the element inheriting it will become BLOCK level as well even it is INLINE
+
+
+

@@ -1,0 +1,27 @@
+.box {
+    background: red;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.parent {
+    background: white;
+    border: 1px solid black;
+}
+
+.fifty-percent {
+    width: 50%;
+}
+
+.fifty-vw {
+    width: 50vw;
+}
+
+.twenty-five-vh {
+    height: 25vh;
+}
+
+.parent {
+    width: 100px;
+    ;
+}
